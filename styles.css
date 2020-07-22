@@ -130,11 +130,12 @@ header p {
 		 flex-direction: row;
 		 flex-wrap: nowrap;
 		 justify-content: space-evenly;
+		 margin: auto;
 }
 .flexbox > div {
 		 border-radius: 10px;
 		 padding: 5px 10px 5px 10px;
-		 margin: 5px;
+		 margin: auto;
 		 background-color: skyblue;
 }
 .flexbox > div > a {
@@ -151,10 +152,8 @@ hr {
 		 padding: 0;
 }
 iframe {
-		 margin: 0;
+		 margin: auto;
 		 padding: 0;
-		 max-width: 100%;
-		 max-height: fit-content;
 }
 .follow {
 		 display: flex;
@@ -163,7 +162,7 @@ iframe {
 		 justify-content: space-evenly;
 }
 .follow > div {
-		 margin: 0;
+		 margin: auto;
 		 padding: 0;
 		 border: none;
 }
