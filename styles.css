@@ -75,6 +75,9 @@ a:hover, a:active {
 		 height: auto;
 		 margin: auto;
 }
+.container a {
+		 margin: auto;
+}
 .container p {
     text-align: center;
 }
@@ -147,13 +150,16 @@ hr {
     height: 1px;
     background: #f36f48;
 }
-.iframe-container {
-    position: relative;
-    margin: auto;
-    width: 100%;
+.iframe {
+		 position: relative;
+		 margin: auto;
+		 padding: 0;
+		 width: 100%;
 }
 iframe {
-    position: absolute;
+		 positive: absolute;
+		 margin: auto;
+		 padding: 0;
 }
 .follow {
 		 display: flex;
