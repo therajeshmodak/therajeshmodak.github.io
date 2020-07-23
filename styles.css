@@ -151,11 +151,9 @@ hr {
     position: relative;
     margin: auto;
     width: 100%;
-    height: auto;
 }
 iframe {
     position: absolute;
-    margin: auto;
 }
 .follow {
 		 display: flex;
