@@ -1,0 +1,66 @@
+body {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+		background-color: #eeeeee;
+}
+
+		/* Bottom Bar */
+
+#bottombar {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: space-evenly;
+		align-items: center;
+		position: fixed;
+		bottom: 0;
+		z-index: +1;
+		width: 100%;
+		height: 45px;
+		box-shadow: 0 -1px 1px grey;
+		background-color: #ffffff;
+}
+#bottombar > div {
+		width: 100%;
+		height: 45px;
+		text-align: center;
+}
+#bottombar div a {
+		text-decoration: none;
+}
+.fab {
+		color: #ffffff;
+		width: 100%;
+		height: 45px;
+		font-size: 30px;
+		line-height: 45px;
+		vertical-align: middle;
+}
+.fab:hover, .fab:focus, .fab:active {
+		background-color: #ffffff;
+}
+.fa-facebook {
+		background-color: #3b5998;
+}
+.fa-twitter {
+		background-color: #00acee;
+}
+.fa-instagram {
+		background-color: #c13584;
+}
+.fa-github {
+		background-color: #333333;
+}
+.fa-facebook:hover, .fa-facebook:focus, .fa-facebook:active {
+		color: #3b5998;
+}
+.fa-twitter:hover, .fa-twitter:focus, .fa-twitter:active {
+		color: #00acee;
+}
+.fa-instagram:hover, .fa-instagram:focus, .fa-instagram:active {
+		color: #c13584;
+}
+.fa-github:hover, .fa-github:focus, .fa-github:active {
+		color: #333333;
+}
