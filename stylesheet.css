@@ -118,7 +118,7 @@ body a {
 		display: flex;
 		flex-direction: row;
 		flex-wrap: nowrap;
-		justify-content: space-around;
+		justify-content: center;
 		padding: 20px;
 }
 #social > div {
